@@ -4,8 +4,13 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int a, b, sum = 0;
+        int a, b, sum = 0, temp;
         a = sc.nextInt(); b = sc.nextInt();
+        if(a > b){
+            temp = a;
+            a = b;
+            b = temp;
+        }
 
         for(int i = a; i <= b; i++){
             if(i % 5 == 0){
