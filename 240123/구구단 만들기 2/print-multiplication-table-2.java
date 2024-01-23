@@ -7,7 +7,7 @@ public class Main {
         int a = sc.nextInt(), b = sc.nextInt();
         int cntA = a, cntB = b;
 
-        for(int i = 1; i <= b; i++){
+        for(int i = 1; i <= 4; i++){
             cntA = 2 * i;
             for(int j = 0; j <= b - a; j++){
                 System.out.print(cntB + " * " + cntA + " = " + (cntA * cntB));
