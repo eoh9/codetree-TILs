@@ -8,10 +8,16 @@ public class Main {
         int x = 'A';
 
         for(int i = n; i > 0; i--){
+            
             for(int j = 0; j <= n-i; j++){
+                
                 System.out.print((char)x);
+                if(x == 'Z'){
+                    x = (char)64;
+                }
                 x++;
             }
+            
             System.out.println();
         }
     }
