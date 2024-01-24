@@ -11,7 +11,7 @@ public class Main {
 
         for(int i = 0; i < 10; i++){
             a[i] = sc.nextInt();
-            if(a[i] >= 260){
+            if(a[i] >= 250){
                 break;
             }
             sum += a[i];
